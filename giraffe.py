@@ -154,7 +154,7 @@ def driver():
             ans = out.readlines()
             ans = list(map(str.strip, ans))
             ans = int(ans[0])
-        print(myAns, ans, myAns == ans, 'time taken = ', t2 - t1)
+        print(myAns, '|', ans, '|' myAns == ans, 'time taken = ', t2 - t1)
        
 
 driver()
